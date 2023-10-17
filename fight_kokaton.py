@@ -133,6 +133,7 @@ class Bomb:
         self.rct.move_ip(self.vx, self.vy)
         screen.blit(self.img, self.rct)
 
+# 演習課題1
 class Explosion:
     def __init__(self, bomb: Bomb):
         self.img_lst = [
